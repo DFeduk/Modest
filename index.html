@@ -31,8 +31,8 @@
     <main>
         <div class="gallery-wrapper">
             <div class="gallery">
-               <div>
-                    <img src="/images/background.jpg" alt="gallery">
+                   <div class="gallery-img">
+                    <img src="/images/background.jpg" alt="gallery" class="lolimg">
                     <span class="gallery-text-wrapper">
                         <span class="gallery-text">WELCOME TO OUR MARKETPLACE</span>
                         <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
@@ -45,10 +45,26 @@
                                 VIDEO TOUR
                             </a>
                         </span>
-                    </span>
-               </div>
-               <!-- <div>
-                <img src="/images/background.jpg" alt="gallery">
+                    </span> 
+                    </div>
+                <div class="gallery-img">
+                 <img src="/images/background.jpg" alt="gallery" class="lolimg">
+                 <span class="gallery-text-wrapper">
+                     <span class="gallery-text">WELCOME TO OUR MARKETPLACE</span>
+                     <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
+                         non, ornare sagittis dolor. Nulla vestibulu lacus ...</strong>
+                     <span class="button-wrapper"> 
+                         <a href="#" class="button-1">
+                             VIEW MORE
+                         </a>
+                         <a href="#" class="button-2">
+                             VIDEO TOUR
+                         </a>
+                     </span>
+                 </span> 
+            </div>
+            <div class="gallery-img">
+                <img src="/images/background.jpg" alt="gallery" class="lolimg">
                 <span class="gallery-text-wrapper">
                     <span class="gallery-text">WELCOME TO OUR MARKETPLACE</span>
                     <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor 
@@ -61,9 +77,9 @@
                             VIDEO TOUR
                         </a>
                     </span>
-                </span>
-                </div> -->
-            </div>
+                </span> 
+                </div>         
+            </div>  
         </div>
         <div class="content-wrapper">
             <div class="content">
@@ -85,18 +101,23 @@
                             <div class="square">01</div>
                             <div>
                                 <h2>DEDICTAION TO CUSTOMERS</h2>
-                                <p>Integer vel lacus non dui ullamcorper venenatis.Aliquam vitae tristique nisi, vitae ullamcorper risus.</p>
+                                <p>Integer vel lacus non dui ullamcorper venenatis.</p>
+                                <p>Aliquam vitae tristique nisi, vitae ullamcorper risus.</p>
                             </div>
                         </li>
                         <li>
-                            <span>02</span>
-                            <h2>working closely with our clients</h2>
-                            <p></p>
-                            <p></p>
+                            <div class="square">02</div>
+                            <div>
+                                <h2>working closely with our clients</h2>
+                                <p>Sed blandit nisi urna, sed pellentesque enim consectetur vitae. Suspendisse ut vehicula nibh.</p>
+                            </div>
                         </li>
                         <li>
-                            <span>03</span>
-                            <h2>increase happiness</h2>
+                            <div class="square">03</div>
+                            <div>
+                                <h2>increase happiness</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend laoreet euismod.</p>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -107,37 +128,57 @@
             <ul class="photos">
                 <li>
                     <figure>
-                    <img src="/images/male-1.jpg" alt="">
+                    <img class="portrait" src="/images/male-1.jpg" alt="">
+                    <ul class="nav">
+                        <li><a href="#"><img src="/svg/icons8-twitter.svg" alt=""></a></li>
+                        <li><a href="#"><img src="/svg/icons8-facebook-f.svg" alt=""></a></li>
+                        <li><a href="#"><img src="/svg/linked-in-logo-of-two-letters.svg" alt=""></a></li>
+                    </ul>
                     <figcaption>
-                        <h4>Gloria Bromley</h4>
-                        <span>CEO and Founder</span>
+                        <span class="names">Gloria Bromley</span>
+                        <strong>CEO and Founder</strong>
                     </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                    <img src="/images/male-2.jpg" alt="">
+                    <img class="portrait" src="/images/male-2.jpg" alt="">
+                    <ul class="nav">
+                        <li><a href="#"><img src="/svg/icons8-twitter.svg" alt=""></a></li>
+                        <li><a href="#"><img src="/svg/icons8-facebook-f.svg" alt=""></a></li>
+                        <li><a href="#"><img src="/svg/linked-in-logo-of-two-letters.svg" alt=""></a></li>
+                    </ul>
                     <figcaption>
-                        <h4>Paul Torres</h4>
-                        <span>Head of Development</span>
+                        <span class="names">Paul Torres</span>
+                        <strong>Head of Development</strong>
                     </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                    <img src="/images/female.jpg" alt="">
+                    <img class="portrait" src="/images/female.jpg" alt="">
+                    <ul class="nav">
+                        <li><a href="#"><img src="/svg/icons8-twitter.svg" alt=""></a></li>
+                        <li><a href="#"><img src="/svg/icons8-facebook-f.svg" alt=""></a></li>
+                        <li><a href="#"><img src="/svg/linked-in-logo-of-two-letters.svg" alt=""></a></li>
+                    </ul>
                     <figcaption>
-                        <h4>Judith Gillette</h4>
-                        <span>Graphic Desinger</span>
+                        <span class="names">Judith Gillette</span>
+                        <strong>Graphic Desinger</strong>
                     </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                    <img src="/images/male-3.jpg" alt="">
+                    <img class="portrait" src="/images/male-3.jpg" alt="">
+                    <ul class="nav">
+                        <li><a href="#"><img src="/svg/icons8-twitter.svg" alt=""></a></li>
+                        <li><a href="#"><img src="/svg/icons8-facebook-f.svg" alt=""></a></li>
+                        <li><a href="#"><img src="/svg/linked-in-logo-of-two-letters.svg" alt=""></a></li>
+                    </ul>
                     <figcaption>
-                        <h4>Delores Reed</h4>
-                        <span>Client Service Director</span>
+                        <span class="names">Delores Reed</span>
+                        <strong>Client Service Director</strong>
                     </figcaption>
                     </figure>
                 </li>
@@ -146,9 +187,9 @@
     </main>
     <footer class="footer-wrapper">
     </footer>
-    <!-- <script  src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script  src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script  src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script  src="/js/slick.min.js"></script>
-    <script  src="/js/main.js"></script> -->
+    <script  src="/js/main.js"></script>
 </body>
 </html>
