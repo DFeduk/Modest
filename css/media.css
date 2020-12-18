@@ -5,6 +5,9 @@
     .team {
         width: 100%;
     }
+    .header-wrapper {
+        justify-content: space-around;
+    }
 }
 @media screen and (max-width: 1140px) {
     .navigation li {
