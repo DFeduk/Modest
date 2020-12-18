@@ -4,5 +4,13 @@ $(document).ready(function(){
         infinite: false,
         buttons: false,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 900,
+                settings: {
+                    dots: false   
+                }
+            }
+        ]
     });
 });
