@@ -6,7 +6,7 @@ $(document).ready(function(){
         arrows: false,
         responsive: [
             {
-                breakpoint: 900,
+                breakpoint: 800,
                 settings: {
                     dots: false   
                 }

@@ -343,4 +343,7 @@ h3::before {
     background: #3a454d;
     color: #ffffff;
 }
+.photos li:hover .nav li:hover {
+    background: #4e5a62;
+}
 
